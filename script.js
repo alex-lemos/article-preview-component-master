@@ -15,5 +15,3 @@ function showContainerShare(){
     btnShare.classList.toggle("information-img--bg");
     containerShare.classList.toggle("container-shared--hidden")
 }
-
-console.log(containerShare)
