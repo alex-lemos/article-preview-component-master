@@ -19,6 +19,11 @@ function showContainerShare(){
     btnShare.classList.toggle("information-img--bg");//Fixa a cor do bg
 
     containerShare.classList.toggle("container-shared--hidden");
-    textInfo.classList.toggle("text-information--hidden");
     containerMobile.classList.toggle("container-mobile--hidden");
+
+    let largura = window.screen.width;
+
+    if (largura<=475){
+        textInfo.classList.toggle("text-information--hidden");
+    }
 }
